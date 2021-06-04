@@ -4,9 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import StateList from './state.js';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App  state={StateList} />
   </React.StrictMode>,
   document.getElementById('root')
 );
